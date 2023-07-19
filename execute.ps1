@@ -1,0 +1,1 @@
+echo "Flag is here" ([System.BitConverter]::ToString((New-Object -TypeName System.Security.Cryptography.MD5CryptoServiceProvider).ComputeHash((New-Object -TypeName System.Text.UTF8Encoding).GetBytes("Registry Key is Important")))).Replace("-","")
